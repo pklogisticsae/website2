@@ -36,7 +36,7 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Technical Skills include Solidity, Rust,  Python, Javascript, React,  React Native, NodeJs.<br></br> With a Professional understanding of on-chain and off-chain tools such as Hardhat, Moralis, Chainlink, Web3js, Ethersjs, IPFS, Alchemy, and GraphQL.</p>
+                        <p>My Technical Skills include Solidity, Rust,  Python, Javascript, React,  React Native, NodeJs.<br></br> I have a Professional understanding of on-chain and off-chain tools such as Hardhat, Moralis, Chainlink, Web3js, Ethersjs, IPFS, Alchemy, and GraphQL.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />

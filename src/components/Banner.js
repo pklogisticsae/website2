@@ -58,7 +58,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Dami. `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack Blockchain Developer", " DEFI Developer", "Solidity Developer", "Rust Developer", "Smart Contract Security Auditor"  ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Full-Stack Blockchain Developer with extensive experience in Smart Contract development and deployment on Ethereum Virtual Machine Compatible Blockchains with Solidity and the Solana Blockchain with Rust, Front-End development in React, ReactNative and NextJs, Back-End development in NodeJs, Python, Rust, GraphQL, IPFS, etc. Proven understanding of the use of Blockchain Technology in the development and execution of Secure, Trustless user-facing Decentralized applications.</p>
+                  <p>I am a Full-Stack Blockchain Developer with extensive experience in Smart Contract development and deployment on Ethereum Virtual Machine Compatible Blockchains with Solidity and the Solana Blockchain with Rust, Front-End development with React, ReactNative and NextJs, Back-End development with NodeJs, Python, Rust, GraphQL, IPFS, etc. I also have a Proven understanding of the use of Blockchain Technology in the development and execution of Secure, Trustless User-facing Decentralized applications.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
