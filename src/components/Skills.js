@@ -36,23 +36,27 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <p>Technical Skills include Solidity, Rust,  Python, Javascript, React,  React Native, NodeJs.<br></br> With a Professional understanding of on-chain and off-chain tools such as Hardhat, Moralis, Chainlink, Web3js, Ethersjs, IPFS, Alchemy, and GraphQL.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>Solidity</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>Rust</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>Javascript</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>ReactJs</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter3} alt="Image" />
+                                <h5>Web3Js</h5>
                             </div>
                         </Carousel>
                     </div>
