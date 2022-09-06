@@ -17,39 +17,39 @@ export const Projects = (link) => {
       imgUrl: projImg1,
       link: "https://dry-snow-4572.on.fleek.co/"
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      link: "https://www.twitter.com"
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-      link: "https://www.instagram.com"
-    },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg2,
+    //   link: "https://www.twitter.com"
+    // },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg3,
+    //   link: "https://www.instagram.com"
+    // },
   ];
    const projectSol = [
    
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      link: "https://www.twitter.com"
-    }, 
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg2,
+    //   link: "https://www.twitter.com"
+    // }, 
     {
       title: "Coinante",
       description: "Decentralized Crypto Lottery",
       imgUrl: projImg1,
       link: "https://dry-snow-4572.on.fleek.co/"
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-      link: "https://www.twitter.com"
-    }, 
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg2,
+    //   link: "https://www.twitter.com"
+    // }, 
   ];
 
 
