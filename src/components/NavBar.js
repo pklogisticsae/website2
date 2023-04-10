@@ -5,6 +5,7 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/nav-icon4.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -46,17 +47,18 @@ export const NavBar = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Services</Nav.Link>
+              <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project')}>Showcase</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/dami-adebayo-68934054/"><img src={navIcon1} alt="" /></a>
-                <a href="https://twitter.com/ddmilado"><img src={navIcon2} alt="" /></a>
-                <a href="https://github.com/ddmilado"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.twitter.com"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.facebook.com"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.instagram.com"><img src={navIcon4} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Hire Me</span></button>
+                <button className="vvd"><span>Hire Us</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>

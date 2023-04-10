@@ -11,12 +11,12 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = (link) => {
 
   const projectEth = [
-    {
-      title: "Coinante",
-      description: "Decentralized Crypto Lottery",
-      imgUrl: projImg1,
-      link: "https://dry-snow-4572.on.fleek.co/"
-    },
+    // {
+    //   title: "Coinante",
+    //   description: "Decentralized Crypto Lottery",
+    //   imgUrl: projImg1,
+    //   link: "https://dry-snow-4572.on.fleek.co/"
+    // },
     // {
     //   title: "Business Startup",
     //   description: "Design & Development",
@@ -38,12 +38,12 @@ export const Projects = (link) => {
     //   imgUrl: projImg2,
     //   link: "https://www.twitter.com"
     // }, 
-    {
-      title: "Coinante",
-      description: "Decentralized Crypto Lottery",
-      imgUrl: projImg1,
-      link: "https://dry-snow-4572.on.fleek.co/"
-    },
+    // {
+    //   title: "Coinante",
+    //   description: "Decentralized Crypto Lottery",
+    //   imgUrl: projImg1,
+    //   link: "https://dry-snow-4572.on.fleek.co/"
+    // },
     // {
     //   title: "Business Startup",
     //   description: "Design & Development",
@@ -61,23 +61,23 @@ export const Projects = (link) => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                <h2>Projects</h2>
-                <p>Listed below are links (including codebases) to various Successfully launched  Full-Stack Decentralized Applications on the Ethereum blockchain, the Solana Blockchain, and other Blockchains.</p>
+                <h2>Showcase</h2>
+                <p>Listed below are various Service Portfolios.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Ethereum</Nav.Link>
+                      <Nav.Link eventKey="first">Cleaning Services</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Solana</Nav.Link>
+                      <Nav.Link eventKey="second">Logistics Services</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Other Chains</Nav.Link>
+                      <Nav.Link eventKey="third">Other Services</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : "pe-auto"} >
                     <Tab.Pane eventKey="first">
-                      <p>Ethereum Blockchain</p>
+                      <p>Cleaning Services</p>
                       <Row>
                         {
                           projectEth.map((project, index, link) => {
@@ -93,7 +93,7 @@ export const Projects = (link) => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Solana Blockchain</p>
+                      <p>Logistics Services</p>
                       <Row>
                         {
                           projectSol.map((project, index, link) => {
@@ -109,7 +109,7 @@ export const Projects = (link) => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p> Other Blockchains </p>
+                      <p> Other Services </p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Full-Stack Blockchain Developer", " DEFI Developer", "Solidity Developer", "Rust Developer", "Smart Contract Security Auditor" ];
+  const toRotate = [ "Building Cleaning", "Cargo Services", "Transportation" ];
   const period = 2000;
 
   useEffect(() => {
@@ -52,14 +52,14 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="aligh-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={6} xl={7} style={{ marginTop: '4px' }}>
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Dami. `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full-Stack Blockchain Developer", " DEFI Developer", "Solidity Developer", "Rust Developer", "Smart Contract Security Auditor"  ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am a Full-Stack Blockchain Developer with extensive experience in Smart Contract development and deployment on Ethereum Virtual Machine Compatible Blockchains with Solidity and the Solana Blockchain with Rust, Front-End development with React, ReactNative and NextJs, Back-End development with NodeJs, Python, Rust, GraphQL, IPFS, etc. I also have a Proven understanding of the use of Blockchain Technology in the development and execution of Secure, Trustless User-facing Decentralized applications.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <span className="tagline">Welcome to Al Ghadeer Services</span>
+                <h1>{`Our Services includes `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Building Cleaning", "Cargo Services", "Transportation Services"]'><span className="wrap">{text}</span></span></h1>
+                  <p>Al Ghadeer Services is your trusted partner for building cleaning and logistics services. With years of experience and a commitment to excellence, we provide reliable and high-quality services for commercial and residential clients alike. Our team of skilled professionals is dedicated to ensuring that your space is clean, organized, and safe. From routine cleaning and maintenance to specialized services like inventory management and transportation, we have the expertise and resources to meet your needs. Contact us today to learn how we can help you achieve a cleaner, more efficient space.</p>
+                  <button onClick={() => console.log('#connect')}>Connect with Us <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
