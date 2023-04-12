@@ -5,6 +5,10 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import banner1 from '../assets/img/banner1.jpg'
+import banner2 from '../assets/img/banner2.jpg'
+import banner3 from  '../assets/img/banner3.jpg'
+import vacuum from "../assets/img/vacuum.png"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -13,7 +17,23 @@ export const Banner = () => {
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
   const toRotate = [ "Building Cleaning", "Cargo Services", "Transportation" ];
-  const period = 2000;
+  const period = 5000;
+
+let banner = document.querySelector('.banner');
+let images = [banner1];
+let currentImage = 0;
+
+function changeImage() {
+  banner.style.backgroundImage = `url(${images[currentImage]})`;
+  currentImage++;
+  if (currentImage === images.length) {
+    currentImage = 0;
+  }
+}
+
+setInterval(changeImage, 10000);
+
+
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -67,7 +87,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  {/* <img src={vacuum} alt="Header Img"/> */}
                 </div>}
             </TrackVisibility>
           </Col>
